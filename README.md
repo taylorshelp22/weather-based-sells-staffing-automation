@@ -43,7 +43,7 @@ Built an automated workflow that:
 - API Integration
 - Workflow Automation
 
-  ## Workflow Screenshots
+## Workflow Screenshots
 
 ### Workflow Architecture Diagram
 ![Workflow Architecture](images/workflow-architecture-diagram.png)
