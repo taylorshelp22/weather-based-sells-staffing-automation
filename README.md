@@ -1,32 +1,34 @@
-# AI-Powered Customer Feedback Analysis System
+# Weather-Based Staffing Automation System
 
-An AI automation workflow that analyzes customer feedback submissions, classifies sentiment, summarizes responses, and organizes structured insights automatically using Gemini AI and Make.
+An AI-powered automation workflow that analyzes weather conditions and generates staffing recommendations to help businesses prepare for demand fluctuations automatically.
 
-This project demonstrates how AI automation can transform unstructured customer feedback into actionable business intelligence without requiring manual review.
+This project demonstrates how AI automation can transform external real-time data into operational business insights that improve scheduling efficiency and decision-making.
 
 ---
 
 ## Overview
 
-Businesses receive customer feedback every day through forms, surveys, and support requests. As submission volume increases, manually reviewing responses becomes time-consuming and inefficient.
+Businesses that rely on customer traffic are heavily affected by changing weather conditions. Sudden temperature changes, rain, or extreme weather can significantly impact staffing demand, making manual scheduling inefficient and reactive.
 
-This automation system streamlines the feedback review process by collecting customer submissions, sending them to Gemini AI for sentiment analysis and summarization, organizing structured insights into Google Sheets, and identifying negative feedback for faster follow-up.
+This automation system helps businesses make faster staffing decisions by monitoring weather data, analyzing conditions, and generating automated staffing recommendations based on forecasted demand patterns.
 
-The workflow reduces manual effort while helping businesses improve visibility into customer satisfaction trends.
+The workflow reduces manual planning while improving operational readiness and scheduling efficiency.
 
 ---
 
 ## Business Problem
 
-Manually reviewing customer feedback creates several operational challenges:
+Businesses often struggle to adjust staffing levels quickly when weather conditions change unexpectedly.
 
-- Feedback responses take time to review individually
-- Negative experiences can be overlooked
-- Organizing customer insights becomes inconsistent
-- Businesses struggle to identify recurring issues quickly
-- Reporting and tracking feedback trends requires manual effort
+This creates several operational challenges:
 
-A scalable automated solution was needed to analyze responses consistently and organize actionable insights automatically.
+- Overstaffing during slow weather conditions
+- Understaffing during high-demand weather shifts
+- Manual monitoring of weather forecasts
+- Delayed staffing decisions
+- Inconsistent operational planning
+
+A scalable automated solution was needed to monitor weather conditions and generate staffing recommendations automatically.
 
 ---
 
@@ -34,42 +36,39 @@ A scalable automated solution was needed to analyze responses consistently and o
 
 Built an automated workflow that:
 
-- Collects customer feedback through Google Forms
-- Sends customer responses to Gemini AI for analysis
-- Classifies feedback sentiment as positive, neutral, or negative
-- Generates structured summaries from customer responses
-- Stores analyzed results in Google Sheets
-- Flags negative feedback for faster visibility
-- Reduces manual review time through automation
+- Monitors weather forecast data automatically
+- Analyzes changing weather conditions
+- Predicts staffing demand shifts based on weather patterns
+- Generates staffing recommendations using AI analysis
+- Organizes results into structured operational insights
+- Reduces manual forecasting and planning effort
+- Improves staffing decision-making speed
 
 ---
 
 ## Workflow Breakdown
 
-1. A customer submits feedback through a Google Form
+1. Weather forecast data is collected automatically through API integrations
 
-2. Make automatically captures the form response
+2. Make processes the incoming weather data
 
-3. The response is sent to Gemini AI for sentiment analysis and summarization
+3. The weather conditions are analyzed using AI-powered logic
 
-4. Gemini AI processes the feedback and returns:
-   - Sentiment classification
-   - Feedback summary
-   - Structured insights
+4. The system generates staffing recommendations based on forecast conditions
 
-5. The analyzed results are added to Google Sheets
+5. Structured operational insights are organized for review
 
-6. Negative feedback responses are flagged for follow-up
+6. Business teams can use the recommendations to adjust staffing levels proactively
 
 ---
 
 ## Value Added
 
-- Automates repetitive customer feedback review tasks
-- Improves visibility into customer satisfaction trends
-- Helps identify negative experiences faster
-- Converts unstructured feedback into organized business insights
-- Reduces operational workload through automation
+- Automates weather-based staffing analysis
+- Improves operational planning efficiency
+- Helps businesses respond proactively to demand changes
+- Reduces manual scheduling and forecasting effort
+- Converts external weather data into actionable business insights
 - Demonstrates practical AI-powered workflow automation
 
 ---
@@ -77,10 +76,9 @@ Built an automated workflow that:
 ## Tech Stack
 
 - Make
-- Google Forms
+- Weather API
 - Gemini AI
 - Google Sheets
-- Gmail
 - JSON Parsing
 - Prompt Engineering
 - Workflow Automation
@@ -96,33 +94,33 @@ _Add architecture diagram screenshot here_
 
 ---
 
-### Google Form Input
+### Weather Data Input
 
-_Add Google Form screenshot here_
+_Add weather API or input screenshot here_
 
 ---
 
 ### Make Automation Workflow
 
-_Add Make automation screenshot here_
+_Add Make workflow screenshot here_
 
 ---
 
-### Gemini AI Analysis Step
+### AI Staffing Recommendation Step
 
-_Add Gemini AI module screenshot here_
-
----
-
-### Google Sheets Structured Output
-
-_Add Google Sheets screenshot here_
+_Add Gemini AI analysis screenshot here_
 
 ---
 
-### Negative Feedback Alert
+### Structured Operational Output
 
-_Add alert or notification screenshot here_
+_Add Google Sheets or reporting screenshot here_
+
+---
+
+### Staffing Recommendation Results
+
+_Add final recommendation screenshot here_
 
 ---
 
@@ -130,15 +128,15 @@ _Add alert or notification screenshot here_
 
 Potential future enhancements include:
 
-- Dashboard visualization for sentiment tracking
-- Slack or Discord notification integrations
-- Automated customer response generation
-- CRM integration
-- Trend analysis reporting
-- Multi-language sentiment analysis
+- Real-time staffing alerts
+- SMS or Slack staffing notifications
+- Predictive demand trend analysis
+- POS system integration
+- Multi-location staffing support
+- Historical forecasting dashboards
 
 ---
 
 ## Project Status
 
-Completed as a functional automation workflow for AI-assisted customer feedback analysis and sentiment classification.
+Completed as a functional automation workflow for AI-assisted weather-based staffing analysis and operational planning.
