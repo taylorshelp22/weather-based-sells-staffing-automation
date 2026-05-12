@@ -1,4 +1,4 @@
-# Weather-Based Staffing Automation System
+# WEATHER BASED SELLS & STAFFING AUTOMATION SYSTEM
 
 An AI-powered automation workflow that analyzes weather conditions and generates staffing recommendations to help businesses prepare for demand fluctuations automatically.
 
@@ -8,27 +8,28 @@ This project demonstrates how AI automation can transform external real-time dat
 
 ## Overview
 
-Businesses that rely on customer traffic are heavily affected by changing weather conditions. Sudden temperature changes, rain, or extreme weather can significantly impact staffing demand, making manual scheduling inefficient and reactive.
+Businesses that rely on customer traffic are heavily affected by changing weather conditions. Sudden temperature changes, rain, or extreme weather can significantly impact staffing demand, product demand, and promotional planning, making manual operational decisions inefficient and reactive.
 
-This automation system helps businesses make faster staffing decisions by monitoring weather data, analyzing conditions, and generating automated staffing recommendations based on forecasted demand patterns.
+This automation system helps businesses make faster operational decisions by monitoring weather data, analyzing conditions with ChatGPT, and generating automated staffing, product, and promotional recommendations based on forecasted weather patterns.
 
-The workflow reduces manual planning while improving operational readiness and scheduling efficiency.
+The workflow reduces manual planning while improving operational readiness, response speed, and day-to-day retail decision-making.
 
 ---
 
 ## Business Problem
 
-Businesses often struggle to adjust staffing levels quickly when weather conditions change unexpectedly.
+Retail and hospitality businesses often struggle to quickly adapt daily operations to changing weather conditions.
 
 This creates several operational challenges:
 
 - Overstaffing during slow weather conditions
-- Understaffing during high-demand weather shifts
+- Understaffing during high-traffic weather shifts
+- Poor product demand forecasting
+- Delayed promotional adjustments
 - Manual monitoring of weather forecasts
-- Delayed staffing decisions
 - Inconsistent operational planning
 
-A scalable automated solution was needed to monitor weather conditions and generate staffing recommendations automatically.
+A scalable automated solution was needed to monitor weather conditions and generate operational recommendations automatically.
 
 ---
 
@@ -36,49 +37,55 @@ A scalable automated solution was needed to monitor weather conditions and gener
 
 Built an automated workflow that:
 
-- Monitors weather forecast data automatically
-- Analyzes changing weather conditions
-- Predicts staffing demand shifts based on weather patterns
-- Generates staffing recommendations using AI analysis
-- Organizes results into structured operational insights
-- Reduces manual forecasting and planning effort
-- Improves staffing decision-making speed
+- Pulls live weather forecast data using the OpenWeather API
+- Processes incoming weather conditions through Zapier automation
+- Uses ChatGPT to generate operational recommendations
+- Creates staffing suggestions based on forecast conditions
+- Generates promotional messaging recommendations
+- Sends automated daily operational summary emails
+- Triggers severe weather alert notifications when conditions meet predefined thresholds
+- Reduces manual forecasting and operational planning effort
 
 ---
 
 ## Workflow Breakdown
 
-1. Weather forecast data is collected automatically through API integrations
+1. Zapier Schedule triggers the workflow automatically every morning at 7:00 AM
 
-2. Make processes the incoming weather data
+2. OpenWeather API retrieves daily weather conditions for Miami, FL
 
-3. The weather conditions are analyzed using AI-powered logic
+3. Weather data is sent to ChatGPT for operational analysis
 
-4. The system generates staffing recommendations based on forecast conditions
+4. ChatGPT generates:
+   - Product recommendations
+   - Staffing suggestions
+   - Promotional messaging ideas
 
-5. Structured operational insights are organized for review
+5. Zapier Paths evaluates severe weather conditions
 
-6. Business teams can use the recommendations to adjust staffing levels proactively
+6. Gmail automatically sends:
+   - Daily operational summary emails
+   - Severe weather alert notifications when triggered
 
 ---
 
 ## Value Added
 
-- Automates weather-based staffing analysis
-- Improves operational planning efficiency
-- Helps businesses respond proactively to demand changes
-- Reduces manual scheduling and forecasting effort
-- Converts external weather data into actionable business insights
+- Automates weather-based operational planning
+- Improves staffing and inventory decision-making
+- Helps businesses respond proactively to weather-driven demand changes
+- Reduces manual forecasting and planning effort
+- Converts live weather data into actionable business insights
 - Demonstrates practical AI-powered workflow automation
 
 ---
 
 ## Tech Stack
 
-- Make
-- Weather API
-- Gemini AI
-- Google Sheets
+- Zapier
+- OpenWeather API
+- ChatGPT API
+- Gmail
 - JSON Parsing
 - Prompt Engineering
 - Workflow Automation
@@ -90,37 +97,55 @@ Built an automated workflow that:
 
 ### Workflow Architecture Diagram
 
-_Add architecture diagram screenshot here_
+![Workflow Architecture Diagram](photos/01-workflow-architecture-diagram.png)
 
 ---
 
-### Weather Data Input
+### Zapier Workflow Overview
 
-_Add weather API or input screenshot here_
-
----
-
-### Make Automation Workflow
-
-_Add Make workflow screenshot here_
+![Zapier Workflow Overview](photos/02-zapier-workflow-overview.png)
 
 ---
 
-### AI Staffing Recommendation Step
+### Schedule Trigger Configuration
 
-_Add Gemini AI analysis screenshot here_
-
----
-
-### Structured Operational Output
-
-_Add Google Sheets or reporting screenshot here_
+![Schedule Trigger](photos/03-schedule-trigger.png)
 
 ---
 
-### Staffing Recommendation Results
+### OpenWeather API Request Step
 
-_Add final recommendation screenshot here_
+![OpenWeather API Step](photos/04-openweather-api-step.png)
+
+---
+
+### ChatGPT Analysis Step
+
+![ChatGPT Analysis Step](photos/05-chatgpt-analysis-step.png)
+
+---
+
+### Gmail Daily Summary Email Step
+
+![Gmail Email Step](photos/06-gmail-email-step.png)
+
+---
+
+### Severe Weather Conditional Logic
+
+![Severe Weather Logic](photos/07-severe-weather-logic.png)
+
+---
+
+### Daily Operational Summary Email
+
+![Daily Summary Email](photos/08-daily-summary-email.png)
+
+---
+
+### Severe Weather Alert Email
+
+![Severe Weather Alert Email](photos/09-severe-weather-alert-email.png)
 
 ---
 
@@ -128,15 +153,15 @@ _Add final recommendation screenshot here_
 
 Potential future enhancements include:
 
-- Real-time staffing alerts
-- SMS or Slack staffing notifications
-- Predictive demand trend analysis
+- SMS or Slack notification integrations
+- Multi-location operational forecasting
+- Inventory forecasting automation
 - POS system integration
-- Multi-location staffing support
-- Historical forecasting dashboards
+- Historical trend analysis dashboards
+- Predictive staffing analytics
 
 ---
 
 ## Project Status
 
-Completed as a functional automation workflow for AI-assisted weather-based staffing analysis and operational planning.
+Completed as a functional AI-powered automation workflow for weather-based operational planning, staffing recommendations, and automated business alerts.
