@@ -43,6 +43,35 @@ Built an automated workflow that:
 - API Integration
 - Workflow Automation
 
+  ## Workflow Screenshots
+
+### Workflow Architecture Diagram
+![Workflow Architecture](images/workflow-architecture-diagram.png)
+
+### Zapier Workflow Overview
+![Zapier Workflow](images/zapier-workflow-overview.png)
+
+### Schedule Trigger
+![Schedule Trigger](images/schedule-trigger.png)
+
+### OpenWeather API Integration
+![OpenWeather API](images/openweather-api-step.png)
+
+### ChatGPT Analysis Step
+![ChatGPT Analysis](images/chatgpt-analysis-step.png)
+
+### Gmail Email Action
+![Gmail Email Action](images/gmail-email-step.png)
+
+### Severe Weather Logic
+![Severe Weather Logic](images/severe-weather-logic.png)
+
+### Daily Summary Email Output
+![Daily Summary Email](images/daily-summary-email.png)
+
+### Severe Weather Alert Email
+![Severe Weather Alert](images/severe-weather-alert-email.png)
+
 ## Future Improvements
 - Store recommendations in Google Sheets
 - Add dashboard analytics
