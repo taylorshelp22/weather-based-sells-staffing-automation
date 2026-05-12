@@ -1,103 +1,144 @@
-# Weather-Based Sales & Staffing Automation System
+# AI-Powered Customer Feedback Analysis System
+
+An AI automation workflow that analyzes customer feedback submissions, classifies sentiment, summarizes responses, and organizes structured insights automatically using Gemini AI and Make.
+
+This project demonstrates how AI automation can transform unstructured customer feedback into actionable business intelligence without requiring manual review.
 
 ---
 
 ## Overview
-This project is an AI-powered automation workflow that helps a beachside kiosk make daily sales, staffing, and promotional decisions based on weather conditions.
 
-The workflow fetches the daily forecast for Miami, FL, sends the weather data to ChatGPT for analysis, and emails the kiosk manager a daily operations summary.
+Businesses receive customer feedback every day through forms, surveys, and support requests. As submission volume increases, manually reviewing responses becomes time-consuming and inefficient.
+
+This automation system streamlines the feedback review process by collecting customer submissions, sending them to Gemini AI for sentiment analysis and summarization, organizing structured insights into Google Sheets, and identifying negative feedback for faster follow-up.
+
+The workflow reduces manual effort while helping businesses improve visibility into customer satisfaction trends.
 
 ---
 
 ## Business Problem
-Bayside Brews & Scoops operates a coffee and ice cream kiosk near the beach in Miami, Florida. Weather conditions directly impact customer traffic, product demand, and staffing needs.
 
-The manager previously had to manually review forecasts and make operational decisions each morning, creating delays and inconsistent preparation.
+Manually reviewing customer feedback creates several operational challenges:
+
+- Feedback responses take time to review individually
+- Negative experiences can be overlooked
+- Organizing customer insights becomes inconsistent
+- Businesses struggle to identify recurring issues quickly
+- Reporting and tracking feedback trends requires manual effort
+
+A scalable automated solution was needed to analyze responses consistently and organize actionable insights automatically.
 
 ---
 
 ## Solution
+
 Built an automated workflow that:
-- Retrieves weather data from the OpenWeather API
-- Uses ChatGPT to generate operational recommendations
-- Suggests product focus and staffing adjustments
-- Creates weather-based promotional messages
-- Sends a daily summary email to the kiosk manager
-- Triggers severe weather alerts for extreme heat, heavy rain, or storms
+
+- Collects customer feedback through Google Forms
+- Sends customer responses to Gemini AI for analysis
+- Classifies feedback sentiment as positive, neutral, or negative
+- Generates structured summaries from customer responses
+- Stores analyzed results in Google Sheets
+- Flags negative feedback for faster visibility
+- Reduces manual review time through automation
 
 ---
 
 ## Workflow Breakdown
-1. Zapier schedule trigger runs daily at 7:00 AM
-2. Webhooks by Zapier sends a GET request to the OpenWeather API
-3. Weather data is sent to ChatGPT
-4. AI generates product, staffing, and promotional recommendations
-5. Gmail sends a daily operations summary email
-6. Severe weather conditions trigger an alert notification
+
+1. A customer submits feedback through a Google Form
+
+2. Make automatically captures the form response
+
+3. The response is sent to Gemini AI for sentiment analysis and summarization
+
+4. Gemini AI processes the feedback and returns:
+   - Sentiment classification
+   - Feedback summary
+   - Structured insights
+
+5. The analyzed results are added to Google Sheets
+
+6. Negative feedback responses are flagged for follow-up
 
 ---
 
 ## Value Added
-- Reduced manual operational planning
-- Improved preparation speed for daily business operations
-- Automated weather-based sales and staffing recommendations
-- Created scalable AI-assisted decision support workflow
+
+- Automates repetitive customer feedback review tasks
+- Improves visibility into customer satisfaction trends
+- Helps identify negative experiences faster
+- Converts unstructured feedback into organized business insights
+- Reduces operational workload through automation
+- Demonstrates practical AI-powered workflow automation
 
 ---
 
 ## Tech Stack
-- Zapier
-- OpenWeather API
-- ChatGPT
+
+- Make
+- Google Forms
+- Gemini AI
+- Google Sheets
 - Gmail
-- Webhooks
+- JSON Parsing
 - Prompt Engineering
-- API Integration
 - Workflow Automation
+- No-Code Automation
 
 ---
 
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-![Workflow Architecture](images/01-workflow-architecture-diagram.png)
 
-### Full Zapier Workflow Overview
-![Zapier Workflow](images/02-zapier-workflow-overview.png)
+_Add architecture diagram screenshot here_
 
-### Schedule Trigger
-![Schedule Trigger](images/03-schedule-trigger.png)
+---
 
-### OpenWeather API Integration
-![OpenWeather API](images/04-openweather-api-step.png)
+### Google Form Input
 
-### ChatGPT Analysis Step
-![ChatGPT Analysis](images/05-chatgpt-analysis-step.png)
+_Add Google Form screenshot here_
 
-### Gmail Email Action
-![Gmail Email Action](images/06-gmail-email-step.png)
+---
 
-### Severe Weather Logic
-![Severe Weather Logic](images/07-severe-weather-logic.png)
+### Make Automation Workflow
 
-### Daily Summary Email Output
-![Daily Summary Email](images/08-daily-summary-email.png)
+_Add Make automation screenshot here_
 
-### Severe Weather Alert Email
-![Severe Weather Alert](images/09-severe-weather-alert-email.png)
+---
+
+### Gemini AI Analysis Step
+
+_Add Gemini AI module screenshot here_
+
+---
+
+### Google Sheets Structured Output
+
+_Add Google Sheets screenshot here_
+
+---
+
+### Negative Feedback Alert
+
+_Add alert or notification screenshot here_
 
 ---
 
 ## Future Improvements
-- Store recommendations in Google Sheets
-- Add dashboard analytics
-- Implement SMS notifications
-- Connect sales data for forecasting insights
-- Add historical weather and sales trend analysis
+
+Potential future enhancements include:
+
+- Dashboard visualization for sentiment tracking
+- Slack or Discord notification integrations
+- Automated customer response generation
+- CRM integration
+- Trend analysis reporting
+- Multi-language sentiment analysis
 
 ---
 
 ## Project Status
-Completed as a functional automation workflow for AI-assisted retail operations planning.
 
----
+Completed as a functional automation workflow for AI-assisted customer feedback analysis and sentiment classification.
