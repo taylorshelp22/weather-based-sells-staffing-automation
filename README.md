@@ -1,14 +1,20 @@
 # Weather-Based Sales & Staffing Automation System
 
+---
+
 ## Overview
 This project is an AI-powered automation workflow that helps a beachside kiosk make daily sales, staffing, and promotional decisions based on weather conditions.
 
 The workflow fetches the daily forecast for Miami, FL, sends the weather data to ChatGPT for analysis, and emails the kiosk manager a daily operations summary.
 
+---
+
 ## Business Problem
 Bayside Brews & Scoops operates a coffee and ice cream kiosk near the beach in Miami, Florida. Weather conditions directly impact customer traffic, product demand, and staffing needs.
 
 The manager previously had to manually review forecasts and make operational decisions each morning, creating delays and inconsistent preparation.
+
+---
 
 ## Solution
 Built an automated workflow that:
@@ -19,6 +25,8 @@ Built an automated workflow that:
 - Sends a daily summary email to the kiosk manager
 - Triggers severe weather alerts for extreme heat, heavy rain, or storms
 
+---
+
 ## Workflow Breakdown
 1. Zapier schedule trigger runs daily at 7:00 AM
 2. Webhooks by Zapier sends a GET request to the OpenWeather API
@@ -27,11 +35,15 @@ Built an automated workflow that:
 5. Gmail sends a daily operations summary email
 6. Severe weather conditions trigger an alert notification
 
+---
+
 ## Value Added
 - Reduced manual operational planning
 - Improved preparation speed for daily business operations
 - Automated weather-based sales and staffing recommendations
 - Created scalable AI-assisted decision support workflow
+
+---
 
 ## Tech Stack
 - Zapier
@@ -43,34 +55,41 @@ Built an automated workflow that:
 - API Integration
 - Workflow Automation
 
+---
+
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-![Workflow Architecture](images/workflow-architecture-diagram.png)
+## Workflow Screenshots
 
-### Zapier Workflow Overview
-![Zapier Workflow](images/zapier-workflow-overview.png)
+### Workflow Architecture Diagram
+![Workflow Architecture](images/01-workflow-architecture-diagram.png)
 
 ### Schedule Trigger
-![Schedule Trigger](images/schedule-trigger.png)
+![Schedule Trigger](images/02-schedule-trigger.png)
 
 ### OpenWeather API Integration
-![OpenWeather API](images/openweather-api-step.png)
+![OpenWeather API](images/03-openweather-api-step.png)
 
 ### ChatGPT Analysis Step
-![ChatGPT Analysis](images/chatgpt-analysis-step.png)
+![ChatGPT Analysis](images/04-chatgpt-analysis-step.png)
+
+### Full Zapier Workflow Overview
+![Zapier Workflow](images/05-zapier-workflow-overview.png)
 
 ### Gmail Email Action
-![Gmail Email Action](images/gmail-email-step.png)
+![Gmail Email Action](images/06-gmail-email-step.png)
 
 ### Severe Weather Logic
-![Severe Weather Logic](images/severe-weather-logic.png)
+![Severe Weather Logic](images/07-severe-weather-logic.png)
 
 ### Daily Summary Email Output
-![Daily Summary Email](images/daily-summary-email.png)
+![Daily Summary Email](images/08-daily-summary-email.png)
 
 ### Severe Weather Alert Email
-![Severe Weather Alert](images/severe-weather-alert-email.png)
+![Severe Weather Alert](images/09-severe-weather-alert-email.png)
+
+---
 
 ## Future Improvements
 - Store recommendations in Google Sheets
@@ -79,5 +98,9 @@ Built an automated workflow that:
 - Connect sales data for forecasting insights
 - Add historical weather and sales trend analysis
 
+---
+
 ## Project Status
 Completed as a functional automation workflow for AI-assisted retail operations planning.
+
+---
