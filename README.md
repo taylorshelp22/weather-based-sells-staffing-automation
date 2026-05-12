@@ -97,55 +97,55 @@ Built an automated workflow that:
 
 ### Workflow Architecture Diagram
 
-![Workflow Architecture Diagram](photos/01-workflow-architecture-diagram.png)
+![Workflow Architecture Diagram](images/01-workflow-architecture-diagram.png)
 
 ---
 
 ### Zapier Workflow Overview
 
-![Zapier Workflow Overview](photos/02-zapier-workflow-overview.png)
+![Zapier Workflow Overview](images/02-zapier-workflow-overview.png)
 
 ---
 
 ### Schedule Trigger Configuration
 
-![Schedule Trigger](photos/03-schedule-trigger.png)
+![Schedule Trigger](images/03-schedule-trigger.png)
 
 ---
 
 ### OpenWeather API Request Step
 
-![OpenWeather API Step](photos/04-openweather-api-step.png)
+![OpenWeather API Step](images/04-openweather-api-step.png)
 
 ---
 
 ### ChatGPT Analysis Step
 
-![ChatGPT Analysis Step](photos/05-chatgpt-analysis-step.png)
+![ChatGPT Analysis Step](images/05-chatgpt-analysis-step.png)
 
 ---
 
 ### Gmail Daily Summary Email Step
 
-![Gmail Email Step](photos/06-gmail-email-step.png)
+![Gmail Email Step](images/06-gmail-email-step.png)
 
 ---
 
 ### Severe Weather Conditional Logic
 
-![Severe Weather Logic](photos/07-severe-weather-logic.png)
+![Severe Weather Logic](images/07-severe-weather-logic.png)
 
 ---
 
 ### Daily Operational Summary Email
 
-![Daily Summary Email](photos/08-daily-summary-email.png)
+![Daily Summary Email](images/08-daily-summary-email.png)
 
 ---
 
 ### Severe Weather Alert Email
 
-![Severe Weather Alert Email](photos/09-severe-weather-alert-email.png)
+![Severe Weather Alert Email](images/09-severe-weather-alert-email.png)
 
 ---
 
