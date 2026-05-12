@@ -60,22 +60,19 @@ Built an automated workflow that:
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-## Workflow Screenshots
-
-### Workflow Architecture Diagram
-![Workflow Architecture](images/01-workflow-architecture-diagram.png)
-
-### Schedule Trigger
-![Schedule Trigger](images/02-schedule-trigger.png)
-
-### OpenWeather API Integration
-![OpenWeather API](images/03-openweather-api-step.png)
-
-### ChatGPT Analysis Step
-![ChatGPT Analysis](images/04-chatgpt-analysis-step.png)
+![Workflow Architecture](images/01-workflow-architecture-diagram.jpg)
 
 ### Full Zapier Workflow Overview
-![Zapier Workflow](images/05-zapier-workflow-overview.png)
+![Zapier Workflow](images/02-zapier-workflow-overview.png)
+
+### Schedule Trigger
+![Schedule Trigger](images/03-schedule-trigger.png)
+
+### OpenWeather API Integration
+![OpenWeather API](images/04-openweather-api-step.png)
+
+### ChatGPT Analysis Step
+![ChatGPT Analysis](images/05-chatgpt-analysis-step.png)
 
 ### Gmail Email Action
 ![Gmail Email Action](images/06-gmail-email-step.png)
