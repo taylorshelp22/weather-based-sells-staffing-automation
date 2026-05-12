@@ -60,7 +60,7 @@ Built an automated workflow that:
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-![Workflow Architecture](images/01-workflow-architecture-diagram.jpg)
+![Workflow Architecture](images/01-workflow-architecture-diagram.png)
 
 ### Full Zapier Workflow Overview
 ![Zapier Workflow](images/02-zapier-workflow-overview.png)
